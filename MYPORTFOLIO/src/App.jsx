@@ -6,10 +6,15 @@ import './App.css'
 
 function App() {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
 export default App
