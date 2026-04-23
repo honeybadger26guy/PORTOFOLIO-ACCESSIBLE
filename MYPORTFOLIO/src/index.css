@@ -128,13 +128,29 @@ body{
 .card{
   background: var(--bg-color);
   border: 1px solid #1e293b;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 12px;
   transition: 0.3s;
+}
+.card:hover{
+  transform: translateY(-5px);
 }
 .card img{
   width: 100%;
   border-radius: 10px;
+}
+.buttons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.buttons a{
+  padding: 8px 10px;
+  background: var(--accent-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
 }
 .contact{
   padding: 60px 20px;
